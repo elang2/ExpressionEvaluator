@@ -62,6 +62,9 @@ public class ExpressionEvaluator {
 
 	
 	private String parseLine(String input) {
+		// TODO : Implement a parser to identify assignment operators, operands and + , * operators.
+		// Right now the application is making an assumption that operators and operands are separated by one or many whitespaces. I missed thinking about this in the inital phase. 
+		
 		return input;
 	}
 
